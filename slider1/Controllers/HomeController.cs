@@ -161,5 +161,26 @@ namespace slider1.Controllers
             return View();
         }
 
+        public ActionResult DashboardAdminUmrahView()
+        {
+            ViewBag.Message = "Your Register page.";
+
+            return View();
+        }
+
+        public ActionResult DashboardAdminHajjView()
+        {
+            ViewBag.Message = "Your Register page.";
+
+            return View();
+        }
+
+        public ActionResult DashboardAdminZiyaratView()
+        {
+            ViewBag.Message = "Your Register page.";
+
+            return View();
+        }
+
     }
 }

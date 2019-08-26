@@ -901,74 +901,143 @@ C:\Users\Sarmad\Desktop\Ayaz Gateways (Header Style Remaining1)\slider1\obj\Debu
 C:\Users\Sarmad\Desktop\Ayaz Gateways (Header Style Remaining1)\slider1\obj\Debug\slider1.csproj.CopyComplete
 C:\Users\Sarmad\Desktop\Ayaz Gateways (Header Style Remaining1)\slider1\obj\Debug\slider1.dll
 C:\Users\Sarmad\Desktop\Ayaz Gateways (Header Style Remaining1)\slider1\obj\Debug\slider1.pdb
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\csc.exe
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\vbc.exe
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\VBCSCompiler.exe
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\slider1.dll.config
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\slider1.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\slider1.pdb
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Antlr3.Runtime.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\EntityFramework.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\EntityFramework.SqlServer.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Newtonsoft.Json.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Owin.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Helpers.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Mvc.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Optimization.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Razor.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.Razor.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\WebGrease.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Helpers.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Mvc.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Optimization.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Razor.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.Razor.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Antlr3.Runtime.pdb
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Newtonsoft.Json.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\EntityFramework.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\EntityFramework.SqlServer.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\obj\Debug\slider1.csprojAssemblyReference.cache
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\obj\Debug\slider1.csproj.CoreCompileInputs.cache
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\obj\Debug\slider1.csproj.CopyComplete
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\obj\Debug\slider1.dll
-C:\Users\Sarmad\Desktop\Ayaz Gateways (Latest)\slider1\obj\Debug\slider1.pdb
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\csc.exe
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\vbc.exe
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\slider1.dll.config
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\slider1.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\slider1.pdb
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Antlr3.Runtime.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\EntityFramework.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\EntityFramework.SqlServer.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Newtonsoft.Json.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Owin.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Helpers.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Mvc.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Optimization.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Razor.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\WebGrease.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Helpers.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Mvc.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Optimization.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.Razor.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Antlr3.Runtime.pdb
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Newtonsoft.Json.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\EntityFramework.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\EntityFramework.SqlServer.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\obj\Debug\slider1.dll
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\obj\Debug\slider1.pdb
+C:\Users\Rehman Ali\Desktop\Ayaz Gateways (Latest)\slider1\obj\Debug\slider1.csprojResolveAssemblyReference.cache
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\roslyn\csc.exe
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\roslyn\vbc.exe
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\slider1.dll.config
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\slider1.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\slider1.pdb
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Antlr3.Runtime.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\EntityFramework.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\EntityFramework.SqlServer.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Newtonsoft.Json.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Owin.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.Helpers.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.Mvc.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.Optimization.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.Razor.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\WebGrease.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.Helpers.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.Mvc.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.Optimization.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.Razor.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Antlr3.Runtime.pdb
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Newtonsoft.Json.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\EntityFramework.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\EntityFramework.SqlServer.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\obj\Debug\slider1.csprojAssemblyReference.cache
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\obj\Debug\slider1.csproj.CoreCompileInputs.cache
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\obj\Debug\slider1.csproj.CopyComplete
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\obj\Debug\slider1.dll
+C:\Users\Moeed Ahmed\Downloads\Ayaz Gateways (Latest)\slider1\obj\Debug\slider1.pdb

@@ -25,7 +25,6 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -182,9 +181,9 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\AyazGateway.mdf" />
-    <Content Include="App_Data\AyazGateway_log.ldf">
-      <DependentUpon>AyazGateway.mdf</DependentUpon>
+    <Content Include="App_Data\AyazGatewaysDB.mdf" />
+    <Content Include="App_Data\AyazGatewaysDB_log.ldf">
+      <DependentUpon>AyazGatewaysDB.mdf</DependentUpon>
     </Content>
     <Content Include="Content\basic.css" />
     <Content Include="Content\bootstrap 1.css" />
@@ -202,7 +201,6 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Image\1.jpg" />
-    <Content Include="Image\193156.jpg" />
     <Content Include="Image\58-.jpg" />
     <Content Include="Image\DSC_0174.JPG" />
     <Content Include="Image\ss1.jpg" />
@@ -332,6 +330,9 @@
     <Content Include="Views\Home\DashboardAgentZiyaratView.cshtml" />
     <Content Include="Views\Home\DashboardAgentLocalView.cshtml" />
     <Content Include="Views\Home\DashboardAgentInternationalView.cshtml" />
+    <Content Include="Views\Home\DashboardAdminUmrahView.cshtml" />
+    <Content Include="Views\Home\DashboardAdminHajjView.cshtml" />
+    <Content Include="Views\Home\DashboardAdminZiyaratView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />

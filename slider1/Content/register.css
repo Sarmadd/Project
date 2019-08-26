@@ -178,11 +178,12 @@ h6 {
 }
 
 .bg-gra-02 {
-  background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
+  /*background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
   background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
   background: -moz-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
   background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
+  background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);*/
+  background-image:linear-gradient(to left, rgba(25,25,112,0), rgba(25,25,112,0.7));
 }
 
 /* ==========================================================================
@@ -617,11 +618,11 @@ input {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  background: #fff;
+  background: #d9d9e3;
 }
 
 .card-4 {
-  background: #fff;
+  background: #d9d9e3;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -640,39 +641,5 @@ input {
     padding: 50px 40px;
   }
 }
-head {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background-image: url('../Image/193156.jpg') no-repeat;
-    background-size: cover;
-}
-
-.registration-box {
-    width: 280px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: white;
-}
-
-    .registration-box h1 {
-        float: left;
-        font-size: 40px;
-        border-bottom: 6px solid #4caf50;
-        margin-bottom: 50px;
-        padding: 13px 0;
-    }
-
-.textbox {
-    width: 100;
-    overflow: hidden;
-    font-size: 20px;
-    padding: 8px 0;
-    margin: 8px 0;
-    border-bottom: 1px solid #4caf50;
-}
-
 
 

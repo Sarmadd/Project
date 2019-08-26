@@ -1,0 +1,295 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="~/Content/register.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap 1.css" rel="stylesheet" />
+    <link href="~/Content/basic.css" rel="stylesheet" />
+    <link href="~/Content/custom.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <title>DashboardView</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Ayaz Gateways</a>
+            </div>
+
+            <div class="header-right">
+
+                <a href="message-task.html" class="btn btn-info" title="New Message"><b>30 </b><i class="fa fa-envelope-o fa-2x"></i></a>
+                <a href="message-task.html" class="btn btn-primary" title="New Task"><b>40 </b><i class="fa fa-bars fa-2x"></i></a>
+                <a href="login.html" class="btn btn-danger" title="Logout"><i class="fa fa-exclamation-circle fa-2x"></i></a>
+            </div>
+        </nav>
+        <!-- /. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li>
+                        <div class="user-img-div">
+                            <img src="~/IMG/user.png" class="img-thumbnail" />
+
+                            <div class="inner-text">
+                                Shahzaib Khan
+                                <br />
+                                <small>Last Login : 2 Days Ago </small>
+                            </div>
+                        </div>
+
+                    </li>
+
+
+                    @*<li>
+                            <a class="active-menu" href="index.html"><i class="fa fa-dashboard "></i>Dashboard</a>
+                        </li>*@
+                    <li>
+                        <a href="#"  class="active-menu"><i class="fa fa-desktop "></i>Add Packages <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="@Url.Action("DashboardAdminUmrahView","Home")"><i class="fa fa-toggle-on"></i>Add Umrah</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("DashboardAdminHajjView","Home")"><i class="fa fa-bell "></i>Add Haj</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("DashboardAdminZiyaratView","Home")"><i class="fa fa-circle-o "></i>Add Ziyarat</a>
+                            </li>
+                            <li>
+                                <a href="buttons.html"><i class="fa fa-code ">Add Visit Visa</i></a>
+                            </li>
+                            <li>
+                                <a href="icons.html"><i class="fa fa-bug "></i>Add Tickets</a>
+                            </li>
+                            <li>
+                                <a href="wizard.html"><i class="fa fa-bug "></i>Add Tours</a>
+                            </li>
+
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-dashboard "></i>Register Client</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-yelp "></i>View Sales <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="invoice.html"><i class="fa fa-coffee"></i>Agent Sales</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html"><i class="fa fa-flash "></i>Direct Sales</a>
+                            </li>
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="table.html"><i class="fa fa-flash "></i>Register Agent </a>
+
+                    </li>
+                    <li>
+                        <a href="table.html"><i class="fa fa-flash "></i>View Agent </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper">
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-head-line">ADMIN DASHBOARD</h1>
+                    </div>
+                </div>
+                <!-- /. Row  -->
+                <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+                    <div class="wrapper wrapper--w680">
+                        <div class="card card-4">
+                            <div class="card-body">
+                                <h2 class="title">Makkah Hotel</h2>
+                                <form method="POST">
+                                    <div class="row row-space">
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Hotel Name</label>
+                                                <input class="input--style-4" type="text" name="first_name">
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Distance</label>
+                                                <input class="input--style-4" type="text" name="phone">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row-space">
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Days</label>
+                                                <input class="input--style-4" type="text" name="last_name">
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Nights</label>
+                                                <input class="input--style-4" type="text" name="last_name">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <h2 class="title">Madina Hotel</h2>
+                                    <div class="row row-space">
+
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Hotel Name</label>
+                                                <input class="input--style-4" type="text" name="phone">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Distance</label>
+                                                <input class="input--style-4" type="email" name="email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row-space">
+
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Days</label>
+                                                <input class="input--style-4" type="number" name="phone">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Nights</label>
+                                                <input class="input--style-4" type="number" name="number">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row-space">
+
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Price</label>
+                                                <input class="input--style-4" type="tel" name="number">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Transport</label>
+                                                <input class="input--style-4" type="email" name="email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row-space">
+
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Double Price</label>
+                                                <input class="input--style-4" type="text" name="phone">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Triple Price</label>
+                                                <input class="input--style-4" type="email" name="email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row-space">
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Squad Price</label>
+                                                <input class="input--style-4" type="text" name="email">
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Upload your pic</label>
+
+                                                <label class="label--file" for="file">Choose Picture</label>
+                                                <input class="input-file" type="file" name="file_cv" id="file">
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="row row-space">
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Ziyarat</label>
+                                                <input class="input--style-4" type="number" name="phone">
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label2">Ticket Involved</label>
+                                                <label class="label--file" for="checkbox">(Yes/No)</label>
+                                                <input class="input--style-4" type="checkbox" name="email">
+                                                @*<input class="input-file" type="checkbox" name="checkbox" checked="checked">*@
+
+                                                @*<input class="input--style-4" type="checkbox" name="checkbox">*@
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /. Page Wrapper  -->
+    </div>
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="~/Scripts/bootstrap 1.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="~/Scripts/jquery.metisMenu.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="~/Scripts/custom 1.js"></script>
+</body>
+</html>
