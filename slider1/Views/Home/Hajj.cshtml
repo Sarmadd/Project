@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Hajj";
+}
+
+
+<br />
+<br />
+<div class="navbar">
+    <h2 id="tab_name" style="color:white; text-align:center">Search Hajj Packages</h2>
+    <br />
+    <br />
+    <div class="row-search">
+        <div class="col-md-2">
+            <label style="color:white">No Of Days</label>
+            <select name="NoOfDays" class="form-control">
+                <option value="">Select Days</option>
+                <option value="14">0 To 14 days</option>
+                <option value="21">14 To 21 days</option>
+                <option value="28">21 To 28 days</option>
+                <option value="40">28 To 40 days</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label style="color:white">Select Class</label>
+            <select name="SelectClass" class="form-control">
+                <option value="">Select Class</option>
+                <option value="Royal Class">Royal Class</option>
+                <option value="5Star">5 Star</option>
+                <option value="4Star">4 Star</option>
+                <option value="3Star">3 Star</option>
+                <option value="Platinum">Platinum</option>
+                <option value="Gold">Gold</option>
+                <option value="Silver">Silver</option>
+                <option value="Economy">Economy</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label style="color:white">Distance</label>
+            <select name="SelectDistance" class="form-control">
+                <option value="">Select Distance</option>
+                <option value="100">0 To 100</option>
+                <option value="200">100 To 200</option>
+                <option value="500">200 To 500</option>
+                <option value="700">500 To 700</option>
+                <option value="upto">700 To Upto...</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label style="color:white">City</label>
+            <select name="City" class="form-control">
+                <option value="">Select City</option>
+                <option value="1">Lahore</option>
+                <option value="2">Karachi</option>
+                <option value="3">Islamabad/Rawalpindi</option>
+                <option value="4">Peshawar</option>
+                <option value="5">Gujranwala</option>
+                <option value="6">Faisalabad</option>
+                <option value="7">Multan</option>
+                <option value="8">Sialkot</option>
+                <option value="9">Others (Coming Soon)</option>
+
+            </select>
+        </div>
+        <div class="col-md-2" style="padding-top:20px; padding-left:50px; padding-bottom:10px; ">
+            <button class="btn btn-primary btn-md" type="submit" onclick="@("window.location.href='" + @Url.Action("SearchHajj", "Home") + "'")" ;>Search</button>
+        </div>
+    </div>
+
+</div>
+
+<section class="fix">
+    <div class="container4">
+        <a href="#">  <h1 style="color:white">VISIT US</h1></a>
+</div>
+</section>

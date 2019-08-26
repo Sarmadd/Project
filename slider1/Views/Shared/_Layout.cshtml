@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @*@Styles.Render("~/Content/css")*@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/myStyle.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/Content/footerStyle.css" rel="stylesheet" />
+    <!-- Required meta tags-->
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <!-- Main CSS-->
+    <link href="~/Content/register.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body style="background-image: linear-gradient(to left, rgba(25,25,112,0), rgba(25,25,112,0.7));">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <img src="~/IMG/Header Revise.png" />
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @*@Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })            </div>*@
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active">@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Umrah", "Umrah", "Home")</li>
+                            <li>@Html.ActionLink("Hajj", "Hajj", "Home")</li>
+                            <li>@Html.ActionLink("Ziyarat", "Ziyarat", "Home")</li>
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    Other Countries
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <ul>
+                                        <li>@Html.ActionLink("Local Tour", "LocalTour", "Home")</li>
+                                        <li>@Html.ActionLink("International Tour", "InternationalTour", "Home")</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <li>@Html.ActionLink("Services", "Services", "Home")</li>
+                            <li>@Html.ActionLink("Branches", "Branches", "Home")</li>
+                        </ul>
+
+                            @Html.Partial("_LoginPartial")
+ 
+                         
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="clearfix">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+
+    <div class="container">
+        <br />
+        <br />
+        @RenderBody()
+
+    </div>
+
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <img style="float: left;height:60px;width:60px" src="~/IMG/Logo  Final 07-08-19.png" />
+
+            <h2 style="color:white;">Ayaz<span> GateWays</span></h2>
+
+            <br /><br />
+            <table class="table" style="color:white">
+                <tr>
+                    <td><strong>Contact No:</strong></td>
+                    <td>
+                        +92-42-7571588<br>
+                        +92-42-7539588 <br>
+                        +92-333-4275156
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td><strong>Fax No:</strong></td>
+                    <td>+92-42-7551540</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Email:</strong></td>
+                    <td>ayz_int@hotmail.com</td>
+                </tr>
+                &nbsp;
+                <tr>
+                    <td>
+                        <a href="https://www.facebook.com/ayazinternational/">
+                            <img class="img-icon" src="~/IMG/Facebook_48px.png" style="float: left;height:30px;width:30px;" />
+                        </a>
+
+
+
+                        <a href="https://www.instagram.com/ayaz_international/">
+                            <img class="img-icon" src="~/IMG/icons.png" style="float: left;height:30px;width:30px;margin-left: 5px;" />
+                        </a>
+
+                        <a href="https://www.instagram.com/ayaz_international/">
+                            <img class="img-icon" src="~/IMG/Instagram_48px.png" style="float: left;height:30px;width:30px;margin-left: 5px;" />
+
+                        </a>
+
+                    </td>
+
+
+                </tr>
+            </table>
+            <a class="btn btn-default" style="background-color:#7b7996;" href="https://www.google.com/maps/dir//Ayaz+International,+Lahore/31.533914,74.2509092,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39190499a1077f35:0xbea0690927aaac21!2m2!1d74.3209501!2d31.5339331">Get Direction</a>
+            <br /><br />
+            <p style="color:antiquewhite">&copy; 2019 AyazTech<p>
+        </div>
+        <div class="footer-right">
+            <p>Inquiry</p>
+
+            <form action="/Home/Contact" enctype="multipart/form-data" method="post">
+                <div class="validation-summary-valid" data-valmsg-summary="true">
+                    <ul>
+                        <li style="display:none"></li>
+                    </ul>
+                </div>
+                <input class="form-control" data-val="true" data-val-length="The field Name must be a string with a minimum length of 5 and a maximum length of 20." data-val-length-max="20" data-val-length-min="5" data-val-required="The Name field is required." id="Name" name="Name" placeholder="Full Name *" type="text" value="">
+
+                <input class="form-control" data-val="true" data-val-length="The Phone Number field is not a valid e-mail address." data-val-required="The Email field is required." id="fone" name="fone" placeholder="Phone Number *" type="text" value="">
+                <input class="form-control" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Email" name="Email" placeholder="Email Address *" type="email" value="">
+
+                <textarea class="form-control" cols="20" data-val="true" data-val-required="The Message field is required." id="Message" name="Message" placeholder="Message *" rows="2"></textarea>
+
+                <button type="submit" onclick="this.form.submit();">Send Message</button>
+
+
+            </form>
+
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </div>
+
+    </footer>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
