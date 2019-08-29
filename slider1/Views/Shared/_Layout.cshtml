@@ -22,6 +22,8 @@
 
 </head>
 <body style="background-image: linear-gradient(to left, rgba(25,25,112,0), rgba(25,25,112,0.7));">
+
+    
     <div class="navbar navbar-inverse navbar-fixed-top">
         <img src="~/IMG/Header Revise.png" />
             <div class="container">
@@ -50,9 +52,10 @@
                                     </ul>
                                 </div>
                             </div>
-                            
+                            <li>@Html.ActionLink("Ticket", "Ticket", "Home")</li>
                             <li>@Html.ActionLink("Services", "Services", "Home")</li>
                             <li>@Html.ActionLink("Branches", "Branches", "Home")</li>
+
                         </ul>
 
                             @Html.Partial("_LoginPartial")
