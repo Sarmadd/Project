@@ -77,6 +77,12 @@ namespace slider1.Controllers
             return View();
         }
 
+        public ActionResult Ticket()
+        {
+            ViewBag.Message = "Ticket Page";
+            return View();
+        }
+
         public ActionResult SearchUmrah()
         {
             ViewBag.Message = "Your Search Umrah page.";
