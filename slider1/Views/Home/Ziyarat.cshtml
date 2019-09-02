@@ -35,20 +35,20 @@
                 <option value="Economy">Economy</option>
             </select>
         </div>
-        <div class="col-md-3">
-            <label style="color:white">Ziyarat</label>
-            <select name="SelectPackage" class="form-control">
-                <option value="">Select Package</option>
-                <option value="Iraq">Iraq Only</option>
-                <option value="Iran">Iran Only</option>
-                <option value="Iraq+Iran">Iraq + Iran</option>
-                <option value="Sham">Iraq + Iran + Sham</option>
-                <option value="Sirya">Iraq + Iran + Sirya</option>
+        <div class="col-md-2">
+            <label style="color:white">Distance</label>
+            <select name="SelectDistance" class="form-control">
+                <option value="">Select Distance</option>
+                <option value="100">0 To 100</option>
+                <option value="200">100 To 200</option>
+                <option value="500">200 To 500</option>
+                <option value="700">500 To 700</option>
+                <option value="upto">700 To Upto...</option>
             </select>
         </div>
         <div class="col-md-3">
-            <label style="color:white"> City</label>
-            <select name="City" class="form-control">
+            <label style="color:white">Package City</label>
+            <select name="packageCity" class="form-control">
                 <option value="">Select City</option>
                 <option value="1">Lahore</option>
                 <option value="2">Karachi</option>
@@ -62,8 +62,8 @@
 
             </select>
         </div>
-        <div class="col-md-2" style="padding-top:20px; padding-left:50px; ">
-            <button class="btn btn-primary btn-md" type="submit" onclick="@("window.location.href='" + @Url.Action("SearchZiyarat", "Home") + "'")" ;>Search</button>
+        <div class="col-md-2" style="padding-top:20px; padding-left:50px; padding-bottom:10px; ">
+            <button class="btn btn-primary btn-md" type="submit" onclick="@("window.location.href='" + @Url.Action("SearchUmrah", "Home") + "'")" ;>Search</button>
         </div>
     </div>
 
