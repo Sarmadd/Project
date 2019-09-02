@@ -4,167 +4,11 @@
 <html id="ctl00_IBEMasterID" lang="en-GB">
 <head id="ctl00_Head1">
 
-    <!-- WCAG S732822 -->
-    <!-- Meta, title, CSS, favicons, etc. -->
+    
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <!--[if lt IE 10]> _strIPText3
-    <script src="../js/globalnav/xhr-xdr-adapter.js" type="text/javascript"></script>
-    <![endif]-->
 
-
-    <script charset='UTF-8'>
-        try {
-            window['adrum-start-time'] = new Date().getTime();
-            (function (config) {
-                config.appKey = 'EC-AAB-BEB';
-                config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
-                config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
-                config.beaconUrlHttp = 'http://fra-col.eum-appdynamics.com';
-                config.beaconUrlHttps = 'https://fra-col.eum-appdynamics.com';
-                config.xd = { enable: false };
-            })(window['adrum-config'] || (window['adrum-config'] = {
-                userEventInfo: {
-                    "PageView": function (context) {
-                        return {
-                            userData: {
-                                TempMachineName: document.getElementById("ctl00_tempMachineName").value
-                            }
-                        }
-                    }
-                }
-            }));
-        }
-        catch (e) { }
-    </script>
-    <script src="https://cdn.appdynamics.com/adrum/adrum-4.4.0.117.js" type="text/javascript" charset="UTF-8">
-    </script>
-
-
-    <script type="text/javascript" lang="javascript">
-        var __departAirport = "Departure airport";
-        var __arrivalAirport = "Arrival airport";
-        var __selectAirport = "Select airport";
-        var ArrCugo = null;
-        var __SessionCugo = '';
-        var __CugoCode = '';
-        var __CUGODepLoc = '';
-        var __CUGOArrLoc = '';
-        var __CUGODepart1 = '';
-        var __isFlexi = '';
-        var __isModify = 'True';
-        var __isCugoModify = 'True';
-        var __isFirstLoad = 'True';
-        var __PublicationUrl = '/pk/english';
-        var __FromLoc = '';
-        var __ToLoc = '';
-        var __FromBRCLoc = '';
-        var __ToBRCLoc = '';
-        var __From1Loc = '';
-        var __To1Loc = '';
-        var __From2Loc = '';
-        var __To2Loc = '';
-        var __From3Loc = '';
-        var __To3Loc = '';
-        var __From4Loc = '';
-        var __To4Loc = '';
-        var __From5Loc = '';
-        var __To5Loc = '';
-        var __From6Loc = '';
-        var __To6Loc = '';
-        var __From7Loc = '';
-        var __To7Loc = '';
-        var __From8Loc = '';
-        var __To8Loc = '';
-        var __From9Loc = '';
-        var __To9Loc = '';
-        var __From10Loc = '';
-        var __To10Loc = '';
-        var __FromOJLoc = '';
-        var __ToOJLoc = '';
-        var __OALoc = '';
-        var __IALoc = '';
-        var __FromFltWgtLoc = '';
-        var __ToFltWgtLoc = '';
-        var __FromClLoc = '';
-        var __ToClLoc = '';
-        //var __interSector = '';
-        var sSystemPath = '/CAB/System';
-        var sDefaultIBEXmlUrl = sSystemPath + "/aspx/AirportsXML.aspx?pub=/english";
-        var sIbePath = '/CAB';
-
-        /*GBE - Start*/
-        var adultAgeGBERange = '';
-        var adultAgeRange = '';
-        var adult_data_access_title = 'Select the number of adults, age 12+';
-        var GBE_data_access_title = 'Select the number of adults, age 16+';
-        var linkTextAudio = 'link';
-        var collapsedTextAudio = 'collapsed';
-        var expandedTextAudio = 'expanded';
-        // ******MYb payment page variable
-        var MYBTI_POS_Country = '';
-        var MYBAPP = ''
-        //***********
-        /*GBE - End*/
-
-        var SHOW_DETAILS = 'Choose seats:Show details';
-        var HIDE_DETAILS = 'Choose seats:Hide details';
-        var REMOVE_INSURANCE = 'Options:Remove insurance';
-        var ADD_INSURANCE = 'Options:Add to trip';
-
-    </script>
-    <script src="//cdn.ek.aero/qubit/opentag-93989-1321710.js" async defer></script>
-
-    <!-- BRSR CHANGES START [Cash + Miles changes, BRSR-501] (added css changes as separate stylesheet) -->
-    <link id="ctl00_CashMilesUpdates" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/CSS/CashMilesUpdates.css?v=10072019" integrity="sha256-KmpoTIgNwAOq6jrPnrXxNfmrufw4V9I6PuPpbaF4aF4= sha384-J/28REJNA93pfrWWbswf9jV8j3VHOU5UOg3R2fo+6K0AYxXnsn25z4KmcfUpL2Uu sha512-yOuAa9lQjw6z8eD770eszzL/non9XUfgrhO17u+XOUsWiq8qpEpg/v/uYI5k9MgqgRw54zcaTMYd5TUxlFhVYQ==" crossorigin="anonymous" />
-    <link id="ctl00_gnCore" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/CSS/globalnav/core.css?v=10072019" />
-    <link id="ctl00_gnIbeCore" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/CSS/globalnav/ibe_core.css?v=10072019" />
-    <link id="ctl00_IBELink3" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/main.css?v=10072019" />
-    <!-- BRSR CHANGES START [Cash + Miles changes, BRSR-501] (added css changes dependency as separate stylesheet) -->
-    <link rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/CurrencyMessaging.css?v=10072019" integrity="sha256-ncqXU406rTtswicCfj8zLhyFZNNQ+1PumVK+ywQQ+yU= sha384-XZ6E5sk6HT7VPhfrZy8MoRMECpJ/1+YfFX/WRLNgWJvVcJO1ox9WSu9EzeKqJajd sha512-E1slcIWkX8eW6Gxq9lVZNB88yrcwFkBofMKEjumj3AHl3d0rv8atIW87aYqdrALK8frg9+VzoC8yx44tbEzNYg==" crossorigin="anonymous" />
-    <!-- BRSR CHANGES END [Cash + Miles changes, BRSR-501] -->
-    <!-- BRSR CHANGES START [Payment method display changes + new login teaser, BRSR-497 / BRSR-498] (added css changes as separate stylesheet) -->
-    <link rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/PaymentMethodUpdates.css?v=10072019" integrity="sha256-V6s+clRpm9NjW09gRuW+90hUE71SpwiJuD5a02aFcos= sha384-pfgwq2WffDC1lTBqIqnQ1HHluSyclTwb1tUE8DkgDxP/+Lka1yrG2iiXQzriywmw sha512-VllCaeiaaYRvj5L2quq4ndBo4S0i+uCEKleGdTP6epRC7cygi5aDAVd7Ieo+GKJCCfTFhZ40se+3V5SJs1RZog==" crossorigin="anonymous" />
-    <!-- BRSR CHANGES END [Payment method display changes + new login teaser, BRSR-497 / BRSR-498] -->
-    <!-- BRSR CHANGES START [Cash + Miles changes, BRSR-501] () -->
-
-
-    <link id="ctl00_template_style_ColNav2" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/navENHF.css?v=10072019" integrity="sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha384-OLBgp1GsljhM2TJ+sbHjaiH9txEUvgdDTAzHv2P24donTt6/529l+9Ua0vFImLlb sha512-z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg==" crossorigin="anonymous" />
-    <link id="ctl00_IBELink4" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/icons.css?v=10072019" integrity="sha256-sx8jdH7XYRBs1Ulgh+oNHvYQzUvuaVsfcoWt9g8cuZ8= sha384-edHQ2UehRi/fWN4UrlI5kKTcJNNzbxNUoXbEYKA+tO6msePx2r83iAHtK9jNRZzx sha512-kp/0y1HWpTDzGSeuf4p6Z8F790qZbrepOgtzYzV/pDq1oUlnbbjZbCQhjMOLVXcCvLo63r1BWZ96PQo0H6Yi0w==" crossorigin="anonymous" />
-    <link id="ctl00_IBELink6" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/fare_families_accessibility.css?v=10072019" />
-    <link id="ctl00_IBELink7" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/AutoSuggest.css?v=10072019" integrity="sha256-nrm9DCH/GZK+ernWKftlmmtkrCGjSdOLI1WWGNOVYEQ= sha384-+LInB60gVM15zl0ZWH4Xm1MFhn1aJWTB2GuVbYn1AxVe4y9sFYL+aikr4v9AOGwJ sha512-xdVygREY8qZTOGqcRC1+L+8z1FIz8c4rQznOYebTX5cddY0IiEXEJJg/ZVBMPQUUPH+qPzri2yz3zDngtg2sTQ==" crossorigin="anonymous" />
-    <style type="text/css">
-        /*WACG - Emil: Add new style to fix the Interstitial page - search page*/
-        body.fareFamiliesLoaderBodyBG #logo {
-            height: auto;
-            left: auto;
-            position: relative;
-            top: auto;
-            width: auto;
-            z-index: auto;
-        }
-        /*WACG - Emil End: Add new style to fix the Interstitial page - search page*/
-    </style>
-    <!--[if lte IE 8]> <link rel="stylesheet" type="text/css" href="../css/ie8fix.css" /><![endif]-->
-    <!--[if lte IE 7]> <link rel="stylesheet" type="text/css" href="../css/ie7fix.css" /><![endif]-->
-    <!--[if lte IE 6]> <link rel="stylesheet" type="text/css" href="../css/ie6fix.css" /><![endif]-->
-    <!--[if lte IE 8]> <p class='browser ie8' /> <![endif]-->
-    <link id="ctl00_tables" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/tables.css?v=10072019" integrity="sha256-Fu6tZ1XQl1AWUv7GG7y1MhV+RYVejW7IVrfGw9Iqyw4= sha384-IOmCYj/Q1N3Vq7KoZPd+B8HpvVttactU2BHCNRAoZ0AaWqS4zfJmPgjIQ2ONLY5C sha512-DkS3o11+THc/fSN85UBZlS3C8psxZnqOKf3KN5XP8YUoFfISxNRlJf/reZji607YHiq71g8lsWLaNltMY9HPdA==" crossorigin="anonymous" />
-
-    <link rel="stylesheet" type="text/css" href="https://fly10.ek.aero/CSS/base/colorbox.css?v=10072019" integrity="sha256-IhNLNJ70q88NjWBHdQuE53RgJmsiPB8thzVfZKcHZUg= sha384-qaofyPSX1dMYqlvJiTRfHvxYx6UIyb5E7Q8/noS5vkcu71pUzmG/auPcQ05O8u7q sha512-YHMFkQIqfUKpLkuMEE+mefcXViSlnxTmayHCmqIO2+bo3v141is6QwbOwNC9rk1LcKCDOprLJXshmosmdQUq6A==" crossorigin="anonymous" />
-
-    <link rel="stylesheet" type="text/css" href="https://fly10.ek.aero/CSS/UT08_grid_calendar_7x7.css?v=10072019" integrity="sha256-tNAdureMMOpP/OIug/zIbGRrFqYRZjF9IN6QZmXcecs= sha384-frBWc/1NmnJNj4+PPRXH7wgpMYbCphpKjBsrhO677QrwpgrLB1hlYiVs12/JkHYK sha512-Htw9TR53EbNusgxHNebBGOwsc5x7oy98ddz/Phc8D7pk6VxYX+kb61CVnLmI8DtPOMZ+zrr6pMsYhHgSZKOWbw==" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/UT08_override.css?v=10072019" integrity="sha256-OhFac6SRC7F6K72HB6RhqrjIFMuWSeLv+wNIlFNzz7U= sha384-ESYnzoeHWntjyJOZoRSOpSp9bS2RZz0lk9ixkbfdVSsNLL+QHxA5NwmVhLLk9b7M sha512-TWMPLWWlF+3QAKAVDLG4zB3Zy+coMlC6OpcZrSIrwKxKK+LfBACJmYAroGySsu8EgaXrXZpoo/WPYNf6Ay/YfQ==" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/RDB_override.css?v=10072019" integrity="sha256-ZvvBiBppIlhPEov5hG1JHsIM9/3zwkORLmZNeYXw2Pg= sha384-upQB15M8RpY+/OepPxHRzqZf17odNyEW9jIglvYHwGferxgOV5mYXHBmxc7Eq+ED sha512-J7ws0weR+ZSkw539AM+9bJ30WbP8RaAlFNyXE/wKZjymR96O+uXluJ1BQpc8ENqX7yFrtedRI0Kl4fBcmp2sZw==" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/LDP_override.css?v=10072019" integrity="sha256-ahIlSDzTKUYSKp0LKJsUy+SYu0XJE6z3S6RHMMbn5Rg= sha384-WXeldAsGfvKLdZQf3T0pWe1H+ph7IGuL8WKIm7EIHnrlavC49fSBiJnt9Y9gAfLU sha512-pABgXVE8YdUH0omG6imcQ/a+Hg7YG3DntywqNQHx0MQEdTmHa3kOCKc5NJHYZJSLyJp6iOMwb6ICzFzK9eVElA==" crossorigin="anonymous" />
-    <link href="https://fly10.ek.aero/CSS/fare_families.css?v=10072019" rel="stylesheet" />
-    <link href="https://fly10.ek.aero/CSS/jquery-ui-1.10.3.custom.css?v=10072019" integrity="sha256-w9RocZ6DRqf2YFzOhSOLsVJklNVVFD7pvkZSdfV17hU= sha384-iPEeVePdcGXQxv6hMvjY2iNj8phUWykcTUtpkhgmM8wmcOQvYo14bsVvn5DsHKu9 sha512-FrCAsGdZHDiaVxoVTa7kWDzSgHGHFe4EDTqmoTz48XiZa9Nt/QxWGLR+ojxn5kiydyNMiF/9IwGFMUz1Ou8rzg==" crossorigin="anonymous" rel="stylesheet" />
-    <link id="ctl00_section_css_CugoLanding" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/CugoLanding.css?v=10072019" integrity="sha256-fzoPgdCyrprIsuVchcMc3Oy7VBRNQErlS4s77YJvCVw= sha384-yugNe/jQxcuOKSdisR0+0whOUa914Rs0SquGzzLGkTWb1Tkf/wln7CC061+RKGG0 sha512-GHJTjreDCRk3EXV9R3MWXlm4kwKKdUGICrAJYv+visGODYX/5TlHQkhn6VBd0bKOfA16kMSIFk2f7U7fouifSA==" crossorigin="anonymous" />
-    <link id="ctl00_section_css_jquerycustom" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/ui-lightness/jquery-ui-1.8.6.custom.css?v=10072019" integrity="sha256-9bzuK3mLT8zZ58Edgie6WF7OVB6bu3Aif2J5L1avSkA= sha384-ubiMIff85FLzqrKBS/Ibg3cB/84JwqCdqnLUoC8/Prmd7IBrE3e9mNYVkQkyqMNr sha512-pOXiIlqWx94jFnPHoa/WiotCY6So929/L+xHQUaYxNYwQikJIiIRUd2cOzVTYVhDQ+8FnVLLxlsgl2YGrEOl4w==" crossorigin="anonymous" />
-    <link id="ctl00_section_css_FLXOverride" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/FLX_override.css?v=10072019" integrity="sha256-X5nAZPJmu7Inv/0BX/3/nnkdo83BtT/i9Hm17yadr6w= sha384-UEGbCJXaD2ZjOCqq5FnY8idRDPQKJWR2HgYISdLhyAU5pI/EO24ci54cei2hipj4 sha512-waZiUlS6X0X+IoXIon/ET5IBgZaDXDa0UZq1tBo/idVmXhND0yHk9s6QKhghm8ZzQAHV6/+vdUiqE7lmJ0cTOg==" crossorigin="anonymous" />
-    <link id="ctl00_section_css_headerCSOHPF" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/header_CSO_HPF.css?v=10072019" integrity="sha256-AbCAOuTR5uIOzLGE1PwZ+Omarlm9r1maeCCepgvh3UQ= sha384-IoP1Z/bjQH1aw937griLPvXgfMSCJ3DW3FmTZmKnNaD+NYLP36M9VJBplnShJihS sha512-8b/p1l/5gsQ/amV229PTKBxfdl9OKjA41aLZBBRRg1sr7voMVWDjvYalz7AlUFf8z+ovb2565e0T7iNdZ2eWXg==" crossorigin="anonymous" />
-    <script type="text/javaScript" src="https://fly10.ek.aero/js/Utility.js?v=10072019" integrity="sha256-iDP1Cm5U/xTjHBQjuOyVYCy1yhnfbYbXRXL3rNXUhGk= sha384-5KA616ic4NQ/T7CoZ47NHqmDUA3H1pJ8M4QoRBRRY8/oUabgrGKM0VsE0LvwtZsu sha512-8jpQS82MFwM9Bv8qSBGL9CmzvKaxPcsNvUJDJ8jUpxKokCKgn6T9Lghcc4sdpntVrGOmKiqFFRyV8QD1A2R3sQ==" crossorigin="anonymous"></script>
+     <link href="https://fly10.ek.aero/CSS/fare_families.css?v=10072019" rel="stylesheet" />
     <link id="ctl00_section_css_PlanAndBook" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/plan_and_book.css?v=10072019" integrity="sha256-wErh+QWygernhgiRDZo/Up8C1RDDoB4eXEl33MIs/Hw= sha384-pa2nDUZZ6nvgw2buEpl9mvJmX9aKGCTDNWxjKnOW07M2a0EQ2EldAOT8weSsxtDo sha512-oKzkVkmODuKnd4WRlDMSbpwruMmRpQSVzdSGyzysKqLu5gO+8qUBuhO4eitnxcgL2izGyYi1UUJdz3Vt7NvtGg==" crossorigin="anonymous" />
     <link id="ctl00_section_css_Print3Col" media="print" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/print_friendly_3COL.css?v=10072019" integrity="sha256-8w+LFdHn5WPBasYmcf3vB4QswOi5bI039cIn9WUhi2s= sha384-EBOnOi1rrnxm/EgQCoT3wF+mJMvs+GmI5NtGo43+9cFDuNXldqTj5kmyT9o9Og35 sha512-jUa7Jn4AG4g5KMUCxndN66h4+WqYnCbyMlGac5E/kQol4UXJIJaWDJv9WFMRDhkFLA+5MaNmnBjMrB/ns9qgpQ==" crossorigin="anonymous" />
     <link id="ctl00_section_css_SkyIbe" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/skywards_ibe_override.css?v=10072019" integrity="sha256-WkvaeVCTFeIoffumdR5fH9xy8kIcMAJ+KY70BEKfUSk= sha384-Rpd+QdBmZk54ULZsW+ydU6s1Z165j1QJDoEMy5tJQKYZgjlu/sOAsYjF44/jy4Ff sha512-RWhuQSvdgY7LSP5dRMm1DylfNKWWsmhkN4/OjNESgfxzfXi3BglTEBP5PbOeAvpAifF3uQzswWNvhknrSse80g==" crossorigin="anonymous" />
@@ -179,12 +23,12 @@
     <link id="ctl00_IBELinkChosen" rel="stylesheet" type="text/css" />
     <link id="ctl00_skywards_ibe_override" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/CSS/skywards_ibe_override.css?v=10072019" integrity="sha256-WkvaeVCTFeIoffumdR5fH9xy8kIcMAJ+KY70BEKfUSk= sha384-Rpd+QdBmZk54ULZsW+ydU6s1Z165j1QJDoEMy5tJQKYZgjlu/sOAsYjF44/jy4Ff sha512-RWhuQSvdgY7LSP5dRMm1DylfNKWWsmhkN4/OjNESgfxzfXi3BglTEBP5PbOeAvpAifF3uQzswWNvhknrSse80g==" crossorigin="anonymous" />
     <link id="ctl00_IBELink11" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/css/jquery.jscrollpane.css?v=10072019" integrity="sha256-1gqsAvU4G2lgt6savzeWqVhLg5zTi7CIIIrP0a5LNlk= sha384-aiSQt47k8nAt87hHGaufCiOCDPHdZ1B1K+GVCISqevW22jbIdvx0ujsAiFDYl9/F sha512-/tPWNNUYbYfoJdJkdEc1N/+IigSTk+g12N2MxeEY3CjA4mRVfgpKWc3ikBjJ5TggfUBNRcO9tLrVNJs1oEqdoA==" crossorigin="anonymous" />
-    <!-- Top Navigation begin-->
+     Top Navigation begin
     <link id="ctl00_IBELinkCoretopNavCoreCss" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/CSS/TopNavigation/core.css?v=10072019" />
     <link id="ctl00_IBELinkTopNavIBENavCss" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/CSS/TopNavigation/ibe-navigation.css?v=10072019" />
     <link id="ctl00_IBELinkTopNavIcons" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/CSS/TopNavigation/icons.css?v=10072019" integrity="sha256-MEZmQcCSWhnNOjIA3yTgVmKhwd21REwtkq6b7dNzXHU= sha384-JOZHRSM4qXtKcmt01FKEVsBZIDJ8TTqt4UJg/0ACJnhaDPGmnPsYTCQaoiki686Q sha512-I6WnyrNVnmQtgY4XY67XMUl1IAQ5geHDssF1671sYEeHPzon84kd0ePYJiMZJLy4vxqybvYcaKwsxBu4ZXrfdg==" crossorigin="anonymous" />
     <link id="ctl00_IBELink1" rel="stylesheet" type="text/css" href="https://fly10.ek.aero/CSS/search-availability.css?v=10072019" integrity="sha256-m5ZtdiaTsJ3M6wdJvreN0EVFjulrK0j0JMXEIZdvyvI= sha384-f0VgDt38xgEXYU4Ekw5H3ySdHO/EgelwonrbDcr6rVItJSZMEUpV626tyZZdBuiq sha512-jjMD4IkhetCiNraZaepc6hBnqi57JXKSlqi64FGH8hqbrsX2Pz3lc/IJAXiWN6xyjCDSJlWjMHDGdDIN2e0DkQ==" crossorigin="anonymous" />
-    <!-- Top Navigation end-->
+     Top Navigation end
     <script lang="javascript" type="text/javascript" src="https://fly10.ek.aero/js/jquery-1.6.4.min.js?v=10072019" integrity="sha256-g0pq8amBEYMGLzLCL+ZgavGJEJU5cFiaMFi4HAVjVpc= sha384-ngdzAWx9LgTd9NjSMPUPdbG8IM/Esw9+8oQcPeBIAExxOBpCVbdsmvRjOLUTVAC2 sha512-JtHXGOO/UnVSp8z11DYKoGoTvV+tOr67zIGEYwITRPKBa5yybNqfcL6ymdFoLVeu7kJM1W8ICCYg8aXchU5QNA==" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://fly10.ek.aero/js/Teenager.js?v=10072019" integrity="sha256-IUeOi/i0+BRG/7dJlLvThMb+aE3FX/f9mUpDygJJ3m8= sha384-8sAz5E1s8YzPxfdn/8Jm763asWvIaD2W/q9NpdyF6NzLUh0WK7Rnu33UPxwM1pvZ sha512-7RJruz/DMIum7cieYaTSWQ8kV1fIau+ZI2dvD+cfTxUaSd9H6jRxV5Ll5H5Yvzth2jlbpQpDF3xIwnO9zCP9Iw==" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://fly10.ek.aero/js/OFW.js?v=10072019" integrity="sha256-aLlcx63ocsHCwrnmf4Ek9nRxIKk6gdmeyuNq9+6xvUA= sha384-86l/yMu0E/kjvMmR4l47xG8CDXO92WxJOkWNILkbbAaNsndNeG9LDvC9yk/lH4E0 sha512-a/afFCLQgAdnJjTMQpd1HwhACr8fnCt5luHWFi0HvikQBh7hKISoINK2uEf/AykL4lBMZUCwYlfNYNRjJ2EUoA==" crossorigin="anonymous"></script>
@@ -214,14 +58,14 @@
     <script type="text/javascript" src="https://fly10.ek.aero/js/IBE_cashMilesChanges-paymentDetails.js?v=10072019" integrity="sha256-3VKJ8+akkagEL9JX2MzMswX6XUcyuwReQwpT8DKavNo= sha384-9zemRwfdJAjDfDE/W+u1RlYtwuBMab6tMzzMT0AhEmgy9V0cAmo6zaLnOI+C/VvW sha512-qTEh6s4w0ljTlME4H3nodHlq4GeF0a+3+U3xN5kTmmTL//Is2+BEj9OlxCTvNQRyDdXcxpqBNxiSJCxO9pxg8w==" crossorigin="anonymous"></script>
 
 
-    <!-- Top Navigation begin-->
+     Top Navigation begin
 
     <script type="text/javascript" src="https://fly10.ek.aero/js/TopNavigation/global-navigation-v2.js?v=10072019" integrity="sha256-28S+YUYibxkfLmeJAq1a5gBe4WK2jdWdy/iOPtg70Ok= sha384-5iaEaTHJm9iNSraM1q0o8onOf4iZVXLfhfVZC8dU1L3cxWBlUIYpzV13KhnxDB7h sha512-UF0vSlShfppkh/MepqIdh8AgSMDnkWDOFONBghDeJpmHnAHWHTK1BiCUE4kc98OIPWqwCWbyXBtmlNrBPEyMLA==" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://fly10.ek.aero/js/TopNavigation/global-navigation-interactions.js?v=10072019" integrity="sha256-kNMzgBq7He2eK1L1ktds0WzJgd/ToPBdkaFilRRS7Ec= sha384-Hl17fqRQWFfOm1HVmJUlvKj26QTZH28bAOMZPDlEVDwhQd9nO7jKpvEzwNGE1v4A sha512-XHw3dIFakGiOdNIGgtu3/o1pzkIf3u1O40jPgcAIWglGCStffFy72a8E0mPrtLPHeIe6NCm1IhVo+pq2iwxSbw==" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://fly10.ek.aero/js/TopNavigation/nicescroll.js?v=10072019" integrity="sha256-EMXmdMTT1BkYguhmWmI5n7t5wzpP0qZds0ySV++UCJU= sha384-zrF2YYexdKjYWIdWmB5nuTJVQwhtoMVj9ykaF2H7WHNkHm6jIxJTHmzDU2sjbsXx sha512-UNhXgGfBNK/HX/XNqxbToByWCenHAQRgJxcpXt5eE8BytOVON5xcNm4BSSYBYV0NwNm7EjEghcpKhqKKM792zA==" crossorigin="anonymous"></script>
 
 
-    <!-- Top Navigation end-->
+     Top Navigation end
     <script type="text/javascript">
         var sPageName = '';
         var sChannelName = '';
@@ -1163,10 +1007,10 @@
                         </div>
                         <div id="ctl00_c_pnlWNW" class="where-and-when-container">
                             <div>
-                                Ayaz
+                                
                             </div>
                             <div>
-                                Gateways
+                                
                             </div>
 
                             <h2>
